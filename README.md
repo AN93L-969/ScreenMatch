@@ -1,1 +1,1 @@
-<h1>ScreenMatch tus pe�lículas favoritas al alcance de un clickh1>
+<h1>ScreenMatch tus películas favoritas al alcance de un click</h1>
