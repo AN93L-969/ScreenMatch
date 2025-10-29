@@ -9,6 +9,7 @@ public class CalculadoraDeTiempo {
     }
 
     public void incluye (Titulo titulo) {
+        System.out.println("Agregando duración en minutos de " + titulo);
         this.tiempoTotal += titulo.getDuracionEnMinutos();
     }
 }
