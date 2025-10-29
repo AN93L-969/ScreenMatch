@@ -4,6 +4,8 @@ import com.angel.screenmatch.modelos.Episodio;
 import com.angel.screenmatch.modelos.Pelicula;
 import com.angel.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Principal {
 
     public static void main(String[] args) {
@@ -51,5 +53,21 @@ public class Principal {
 
         filtroRecomendacion.filtra(episodio);
 
+        var peliculaDeAngel = new Pelicula();
+        peliculaDeAngel.setNombre("El señor de los anillos");
+        peliculaDeAngel.setDuracionEnMinutos(180);
+        peliculaDeAngel.setFechaDeLanzamiento(2001);
+
+        ArrayList <Pelicula> listaDePeliculas = new ArrayList<>();
+        listaDePeliculas.add(peliculaDeAngel);
+        listaDePeliculas.add(miPelicula);
+        listaDePeliculas.add(otraPelicula);
+
+        System.out.println("Tamaño de la lista: " + listaDePeliculas.size());
+        System.out.println("La primera película es: " + listaDePeliculas.get(0).getNombre());
+
+        System.out.println(listaDePeliculas.toString());
+
+        System.out.println("toString de la película: " + listaDePeliculas.get(0).toString());
     }
 }
