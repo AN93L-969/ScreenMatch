@@ -1,3 +1,5 @@
+package com.angel.screenmatch.principal;
+
 import com.angel.screenmatch.calculos.CalculadoraDeTiempo;
 import com.angel.screenmatch.calculos.FiltroRecomendacion;
 import com.angel.screenmatch.modelos.Episodio;
